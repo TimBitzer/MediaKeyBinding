@@ -1,0 +1,28 @@
+c:\users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.exe.config
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.exe
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\MainWindow.g.cs
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\App.g.cs
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding_MarkupCompile.cache
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding_MarkupCompile.lref
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\MainWindow.baml
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.g.resources
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.Properties.Resources.resources
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.csproj.GenerateResource.Cache
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.exe
+C:\Users\admin\documents\visual studio 2015\Projects\WPF_MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.pdb
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.exe.config
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.exe
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.pdb
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.exe
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\bin\Debug\WPF_MediaKeyBinding.pdb
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.csprojResolveAssemblyReference.cache
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\MainWindow.g.cs
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\App.g.cs
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding_MarkupCompile.cache
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding_MarkupCompile.lref
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\MainWindow.baml
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.g.resources
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.Properties.Resources.resources
+D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\WPF_MediaKeyBinding.csproj.GenerateResource.Cache
