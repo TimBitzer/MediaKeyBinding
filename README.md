@@ -1,12 +1,17 @@
 # MediaKeyBinding
 
-## Zusammenfassung
-Eine Applikation mit deren Hilfe es möglich ist die Multimediatasten wie z.B. Play/Pause, Stop, nächstes/vorheriges Lied auf eine beliebige Taste oder Tastenkombination zu binden.
-Die App starten im Systemtray und die Tastenbelegung kann über eine GUI konfiguriert werden (not yet implemented).
+## Description
+This is a little C# application which lets you assign the multimedia keys like "Play/Pause", "Stop", "Next" and "Previous" on any key on your keyboard.
+It´s main focus is for Citrix XA/XD deployments since the multimedia key wont be redirected and passing the keyboard as native USB is allways a bad idea.
+
+The application starts in systray and at firstrun the config windows (GUI) will appear where you can choose your bindings. 
+Once you pressed save the GUI closes and the settings are beeing saved into the registry (HKCU:\Software\MediaKeyBinding). 
+Keep in mind that the assigned buttons wont work while the GUI is still open.
+If you start the application the second time the saved config gets loaded automatically and the GUI wont show up again.
 
 
 
-## Beispiel:
+## Example:
 ```
 F6 = Previous
 F7 = Play/Pause
@@ -16,7 +21,6 @@ F9 = Stop
 ```
 
 
-## Ausblick:
-- Konfiguration der Tasten bzw. Kombinationen per GUI
-- Speichern der Einstllungen z.B. in der Registry HKCU
+## Roadmap:
+- Support for key combinations
 - ...
