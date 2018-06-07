@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\obj\Debug\
+C:\Users\admin\OneDrive\GIT\GitHub\MediaKeyBinding\WPF_MediaKeyBinding\obj\Debug\
 MediaKeyBinding
 none
 false
 DEBUG;TRACE
-D:\_GIT\GitLab_SHNSU\MediaKeyBinging\WPF_MediaKeyBinding\App.xaml
+C:\Users\admin\OneDrive\GIT\GitHub\MediaKeyBinding\WPF_MediaKeyBinding\App.xaml
 11151548125
 
 122116890877
 15767094614
 MainWindow.xaml;
 
-True
+False
 

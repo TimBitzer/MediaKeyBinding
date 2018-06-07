@@ -1,21 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Drawing;
-using System.Diagnostics;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
+using System.Reflection;
 
 
 namespace MediaKeyBinding
@@ -31,7 +20,12 @@ namespace MediaKeyBinding
             InitializeComponent();
 
             // Load saved config, if there is any
-            LoadBinding();
+            if (LoadBinding())
+            {
+                // Hide window if configuration was found, therfor the capture will start immediately
+                this.Hide();
+            }
+
 
             // Reposition the window in the bottom right corner
             SetWindowLocation();
@@ -67,9 +61,9 @@ namespace MediaKeyBinding
             this.Top = (workArea.Height - this.Height) + workArea.Top;
         }
 
-        private void LoadBinding()
+        private bool LoadBinding()
         {
-            // get loaded registry values
+            // Get configuration from registry
             Control.Configuration configuration = Control.LoadConfiguration();
 
             // check if config was successfully loaded
@@ -84,8 +78,31 @@ namespace MediaKeyBinding
                 this.TB_Next.Text = configuration.Next;
                 this.TB_Previous.Text = configuration.Previous;
 
-                // Hide window if configuration was found, therfor the capture will start immediately
-                this.Hide();
+               
+                // Get propertyinfo of configuration object
+                PropertyInfo[] properties = configuration.GetType().GetProperties();
+                
+                // Loop each property of configuration object
+                foreach (PropertyInfo property in properties)
+                {
+                    Console.WriteLine(property.GetValue(configuration, null));
+
+                    // Check if any property value mathes "None"
+                    if ((property.GetValue(configuration, null)).ToString() == "None")
+                    {
+                        // Loop each checkboxes of current window
+                        foreach (System.Windows.Controls.CheckBox CHB_ANY in FindVisualChildren<System.Windows.Controls.CheckBox>(Window))
+                        {
+                            // Find the checkbox where the corresponding textbox states "none" and uncheck it
+                            if (CHB_ANY.Name.Split('_')[1] == property.Name)
+                            {
+                                CHB_ANY.IsChecked = false;
+                            }
+                        }
+                    }
+                }
+
+                return true;
             }
 
             // Control.LoadConfiguration() returned null -> config/regkey not found
@@ -93,6 +110,8 @@ namespace MediaKeyBinding
             {
                 this.LBL_Status.Content = "Could not load settings. Regkey not found.";
                 this.LBL_Status.Visibility = Visibility.Visible;
+
+                return false; 
             }
         }
 
@@ -244,6 +263,7 @@ namespace MediaKeyBinding
             if (this.IsVisible == true)
             {
                 Control.StopKeyboardCapture();
+                LoadBinding();
             }
 
             else

@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bechtle Gmbh & Co. KG Systemhaus Neckarsulm")]
 [assembly: AssemblyProduct("MediaKeyBinding")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright ©  2018 Tim Bitzer")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
